@@ -1,0 +1,80 @@
+/*BASIC SETUP*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root{
+    --white: #EDF2F4;
+    --light-grey: #8D99AE;
+    --dark-grey: #2B2D42;
+    --light-red: #EF233C;
+    --dark-red: #a10000;
+    --light-pink: #F8AD9D;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+/*WRAPPER*/
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    background-color: var(--light-pink);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, 20%);
+    grid-gap: 5px;
+    justify-content: center;
+    align-content: center;
+
+    min-height: 450px;
+    min-width: 350px;
+    padding: 20px 15px;
+
+    border: 5px solid var(--dark-grey);
+    border-radius: 15px;
+    background-color: var(--light-grey);
+}
+/*BUTTONS*/
+.btn{
+    padding: 25px;
+    
+    border: 2px solid var(--dark-grey);
+    border-radius: 5px;
+    background-color: var(--white);
+
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: var(--dark-grey);
+
+    color: var(--white);
+}
+
+.btn--clear{
+    background-color: var(--light-red);
+}
+.btn--clear:hover{
+    background-color: var(--dark-red);
+}
+
+.btn--result{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.btn--result:hover{
+    border: 2px solid var(--dark-grey);
+    border-radius: 5px;
+    background-color: var(--white); 
+
+    color: var(--dark-grey);
+
+    cursor: auto;
+}
