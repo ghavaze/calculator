@@ -1,10 +1,10 @@
 # Calculator
 ## Table of contents
 * [The purpose of the project](#the-purpose-of-the-project)
-* [Technologies](#technologies)
 * [Demo](#demo)
+* [Technologies](#technologies)
 * [Project status](#project-status)
-* [Inspirations](#Inspirations)
+* [Inspirations](#inspirations)
 ## The purpose of the project
 I've decided to create this project to develop my skills and learn new things during process of writing.
 ## Demo
