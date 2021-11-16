@@ -17,8 +17,8 @@ I've decided to create this project to develop my skills and learn new things du
 I can ensure you that it's not the final version of the project. I'm planning to add some new features and test some technologies that can make the project work better. Some of the changes I'm planning to make as fast as possible are:
 - adding a function that allows the use of only one period in number
 - swiching from CSS to SASS/SCSS
-- adding better responsibility
-- improving the way the numbers are displayed
+- improving responsibility
+- improving the display
 ## Inspirations
 - [zxcodes (github.com)](https://github.com/zxcodes/Calculator)
 - [giana (codepen.io)](https://codepen.io/giana/pen/GJMBEv)
