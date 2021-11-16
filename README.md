@@ -15,7 +15,7 @@ I've decided to create this project to develop my skills and learn new things du
 - JavaScript
 ## Project status
 I can ensure you that it's not the final version of the project. I'm planning to add some new features and test some technologies that can make the project work better. Some of the changes I'm planning to make as fast as possible are:
-- adding a function that allows the use of only one period in number
+- adding a function that allows the use of only one period in a number
 - swiching from CSS to SASS/SCSS
 - improving responsibility
 - improving the display
